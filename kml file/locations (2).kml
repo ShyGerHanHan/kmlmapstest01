@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <Placemark>
+    <name>台北101</name>
+    <description>台北地標</description>
+    <Point>
+      <coordinates>121.5645,25.0339,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>日月潭</name>
+    <description>知名景點</description>
+    <Point>
+      <coordinates>120.9187,23.8523,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>墾丁國家公園</name>
+    <description>熱門度假勝地</description>
+    <Point>
+      <coordinates>120.8011,21.9455,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>鼎泰豐</name>
+    <description>在地美食</description>
+    <Point>
+      <coordinates>121.5645,25.0339,0</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>
