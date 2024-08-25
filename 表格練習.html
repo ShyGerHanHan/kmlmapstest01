@@ -1,112 +1,88 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
-<meta charset="UTF-8">
-<title>我是標題啦</title>
-<meta name="keywords" content="關鍵字搜尋用,喵咪,喵星人,貓咪介紹">
-<meta name="description" content="類似放在搜尋引擎網站的摘要">
+    <meta charset="UTF-8">
+    <title>我是標題啦</title>
+    <meta name="keywords" content="關鍵字搜尋用,喵咪,喵星人,貓咪介紹">
+    <meta name="description" content="類似放在搜尋引擎網站的摘要">
 </head>
+<body>
+    <!-- 我是註解 -->
 
+    <h1>這個是大標題</h1>
+    <p>大標題的段落</p>
 
+    <ul>
+        <li><a href="#tag">這個是標籤的功能</a></li>
+    </ul>
 
+    <br><br>
 
+    <section id="tag">
+        <h2>這是二標題</h2>
 
-    
-<!-- 我是註解-->
-    <body>
+        <form id="entryForm" action="#" method="post">
+            <table border="1">
+                <tr>
+                    <th>標別</th>
+                    <td>
+                        <select name="Case-Name">
+                            <option value="" selected>請選擇</option>
+                            <option value="第1標">第1標</option>
+                            <option value="第2標">第2標</option>
+                            <option value="第3標">第3標</option>
+                            <option value="第4標">第4標</option>    
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>契約起始日</th>
+                    <td><input type="text" name="BeginTime" placeholder="可以填入框框內提示的字"></td>
+                </tr>
+                <tr>
+                    <th>112年總經費</th>
+                    <td><input type="number" name="num" min="1" max="100000000"></td>
+                </tr>
+                <tr>
+                    <th>EMAIL</th>
+                    <td><input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <th>可以寫很多行的<br>那種留言框框</th>
+                    <td><textarea name="comment" rows="4" cols="20"></textarea></td>
+                </tr>
+                <tr>
+                    <th>檔案上傳按鈕</th>
+                    <td><input type="file" name="file"></td>
+                </tr>
+            </table>
+            <div>
+                <input type="reset" value="清除重填">
+                <input type="submit" value="送出">
+            </div>
+        </form>
+    </section>
 
+    <br><br>
 
-  <iframe
-    src="https://script.google.com/macros/s/AKfycbzwFfnw6vrWUOji2ZXr7j5WxuFmn977xLaRqQCmHO4fVCZZ5fozK_NWeNp99Z_CerRY/exec"
-    width="600"
-    height="400"
-    frameborder="0">
+    <iframe
+        src="https://script.google.com/macros/s/AKfycbzwFfnw6vrWUOji2ZXr7j5WxuFmn977xLaRqQCmHO4fVCZZ5fozK_NWeNp99Z_CerRY/exec"
+        width="600"
+        height="400"
+        frameborder="0">
+        你的瀏覽器不支持 iframe。
+    </iframe>
 
-      <br>
+    <br><br>
 
-        <iframe
-    src="https://script.google.com/macros/s/AKfycbzwFfnw6vrWUOji2ZXr7j5WxuFmn977xLaRqQCmHO4fVCZZ5fozK_NWeNp99Z_CerRY/exec"
-    width="600"
-    height="400"
-    frameborder="0">
+    <iframe
+        src="https://script.google.com/macros/s/AKfycbzwFfnw6vrWUOji2ZXr7j5WxuFmn977xLaRqQCmHO4fVCZZ5fozK_NWeNp99Z_CerRY/exec"
+        width="600"
+        height="400"
+        frameborder="0">
+        你的瀏覽器不支持 iframe。
+    </iframe>
 
-
-
-
-
-
-        
-        
-<h1>這個是大標題</h1>
-<p>大標題的段落</p>
-
-<ul>
-<li><a href="#tag">這個是標籤的功能</a></li>
-
-</ul>
-
-        <br><br>
-        
-<section id="tag">
-<h2>這是二標題</h2>
-
-    
-<from id="entryForm" action="#" method="post">
-
-    
-    <table border="1">
-        <tr>
-            <th> 標別</th>
-                <td><select name="Case-Name">
-                <option value="" selected>請選擇</option>
-                <option value="第1標">第1標</option>
-                <option value="第2標">第2標</option>
-                <option value="第3標">第3標</option>
-                <option value="第4標">第4標</option>    
-                </td>
-
-        </tr>
-        <tr>
-            <th>契約起始日</th>
-                <td><input type="text" name="BeginTime" placeholder="可以填入框框內提示的字"></td>
-        </tr>
-        <tr>
-            <th>112年總經費</th>
-                <td><input type="number" name="num" min="1" max="100000000"></td>
-        </tr>
-        <tr>
-            <th>EMAIL</th>
-                <td><input type="email" name="email"></td>
-        </tr>
-        <tr>
-            <th>可以寫很多行的<br>那種留言框框</th>
-            <td><textarea name="comment" rows="4" cols="20" > </textarea> </td>
-        </tr>
-        
-        <tr>
-            <th>檔案上傳按鈕</th>
-            <td><input type="file" name="file">  </td>
-        </tr>
-    </table>
-    
-    <div>
-
-        <input type="reset" value="清除重填">
-        <input type="submit" value="送出">
-    </div>
-
-</from>
-    
-
-
-</section>
-
-    
-    </body>
-<!-- 我是註解-->
-
-<small>Copyright &copy;這是頁面尾巴的版權宣告用.</small>
-    
-    <br><br><br>
+    <small>Copyright &copy;這是頁面尾巴的版權宣告用.</small>
+</body>
 </html>
-
